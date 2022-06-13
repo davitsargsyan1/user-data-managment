@@ -1,0 +1,59 @@
+body {
+    background: #efefef;
+}
+.wrapper {
+
+    border-radius: 10px;
+    padding: 20px;
+display: flex;
+    flex-direction: column;
+}
+.user-block {
+    display: grid;
+    gap: 16px;
+    justify-content: flex-start;
+    text-align: left;
+}
+.MuiAvatar-root {
+    margin: unset !important;
+}
+.MuiAvatar-root img {
+    border-radius: 8px;
+}
+.buttons {
+    display: flex;
+    gap: 10px
+}
+p.MuiTypography-root {
+    margin: 6px 0 !important;
+    font-size: 14px !important;
+}
+.content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;padding: 10px 20px;
+}
+.user-block b {
+    margin: 0 8px 0 0;
+}
+.name *{
+text-align: left !important;
+}
+.name h5 {
+    font-size: 14px;
+    color: rgba(0,0,0, 0.7);
+    margin: 40px 0 0 !important;
+}
+.name h3 {
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 !important;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
